@@ -1,0 +1,757 @@
+{
+  "metadata": {
+    "id": "randomsseals",
+    "name": "Randoms Seals",
+    "author": [
+      "Random71777"
+    ],
+    "description": "Custom jokers created with Joker Forge",
+    "prefix": "randomss",
+    "main_file": "main.lua",
+    "version": "1.0.0",
+    "priority": 0,
+    "badge_colour": "722f37",
+    "badge_text_colour": "FFFFFF",
+    "display_name": "Randoms Seals",
+    "dependencies": [
+      "Steamodded (>=1.0.0~BETA-0827c)"
+    ],
+    "conflicts": [],
+    "provides": [],
+    "iconImage": "/images/modicon.png",
+    "hasUserUploadedIcon": false
+  },
+  "jokers": [],
+  "sounds": [],
+  "consumables": [
+    {
+      "id": "0a3239e8-26eb-4711-a785-6a7f05e07fb3",
+      "name": "Candyland",
+      "description": "Add a {C:attention}Wine Seal{} to {C:attention}1{} selected card in your hand",
+      "imagePreview": "data:image/png;base64,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",
+      "overlayImagePreview": "",
+      "set": "Spectral",
+      "cost": 4,
+      "unlocked": true,
+      "discovered": true,
+      "hidden": false,
+      "can_repeat_soul": false,
+      "rules": [
+        {
+          "id": "53a3bb24-fccb-4ff9-83b9-9485812f4a07",
+          "trigger": "consumable_used",
+          "conditionGroups": [
+            {
+              "id": "803759f3-9dce-4868-aa24-1698762e4958",
+              "operator": "and",
+              "conditions": [
+                {
+                  "id": "d65f0ec5-3239-4526-baa2-8e181b2bbf82",
+                  "type": "cards_selected",
+                  "negate": false,
+                  "params": {
+                    "operator": "equals",
+                    "value": 1
+                  }
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "id": "b93a2229-787c-4971-b5e0-aee18687f2bc",
+              "type": "edit_cards",
+              "params": {
+                "enhancement": "none",
+                "seal": "randomss_mintseal",
+                "edition": "none",
+                "suit": "none",
+                "rank": "none"
+              }
+            }
+          ],
+          "randomGroups": [],
+          "position": {
+            "x": 727,
+            "y": 34.5
+          },
+          "loops": []
+        }
+      ],
+      "placeholderCreditIndex": 6,
+      "consumableKey": "candyland",
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "efb8eaca-cd36-4c1b-a473-61b9f1b0d3f1",
+      "name": "Eclipse",
+      "description": "Add a {C:attention}Sunset Seal{} to {C:attention}1{} selected card in your hand",
+      "imagePreview": "data:image/png;base64,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",
+      "overlayImagePreview": "",
+      "set": "Spectral",
+      "cost": 4,
+      "unlocked": true,
+      "discovered": true,
+      "hidden": false,
+      "can_repeat_soul": false,
+      "rules": [
+        {
+          "id": "53a3bb24-fccb-4ff9-83b9-9485812f4a07",
+          "trigger": "consumable_used",
+          "conditionGroups": [
+            {
+              "id": "803759f3-9dce-4868-aa24-1698762e4958",
+              "operator": "and",
+              "conditions": [
+                {
+                  "id": "d65f0ec5-3239-4526-baa2-8e181b2bbf82",
+                  "type": "cards_selected",
+                  "negate": false,
+                  "params": {
+                    "operator": "equals",
+                    "value": 1
+                  }
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "id": "b93a2229-787c-4971-b5e0-aee18687f2bc",
+              "type": "edit_cards",
+              "params": {
+                "enhancement": "none",
+                "seal": "randomss_sunsetseal",
+                "edition": "none",
+                "suit": "none",
+                "rank": "none"
+              }
+            }
+          ],
+          "randomGroups": [],
+          "position": {
+            "x": 727,
+            "y": 34.5
+          },
+          "loops": []
+        }
+      ],
+      "placeholderCreditIndex": 10,
+      "consumableKey": "eclipse",
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "2eeb1a14-c55d-4390-a88b-9896d6cf0b92",
+      "name": "Ferment",
+      "description": "Add a {C:attention}Wine Seal{} to {C:attention}1{} selected card in your hand",
+      "imagePreview": "data:image/png;base64,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",
+      "overlayImagePreview": "",
+      "set": "Spectral",
+      "cost": 4,
+      "unlocked": true,
+      "discovered": true,
+      "hidden": false,
+      "can_repeat_soul": false,
+      "rules": [
+        {
+          "id": "53a3bb24-fccb-4ff9-83b9-9485812f4a07",
+          "trigger": "consumable_used",
+          "conditionGroups": [
+            {
+              "id": "803759f3-9dce-4868-aa24-1698762e4958",
+              "operator": "and",
+              "conditions": [
+                {
+                  "id": "d65f0ec5-3239-4526-baa2-8e181b2bbf82",
+                  "type": "cards_selected",
+                  "negate": false,
+                  "params": {
+                    "operator": "equals",
+                    "value": 1
+                  }
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "id": "b93a2229-787c-4971-b5e0-aee18687f2bc",
+              "type": "edit_cards",
+              "params": {
+                "enhancement": "none",
+                "seal": "randomss_wineseal",
+                "edition": "none",
+                "suit": "none",
+                "rank": "none"
+              }
+            }
+          ],
+          "randomGroups": [],
+          "position": {
+            "x": 727,
+            "y": 34.5
+          },
+          "loops": []
+        }
+      ],
+      "placeholderCreditIndex": 5,
+      "consumableKey": "ferment",
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "4a12cc57-cd81-47cd-aadc-407c298f42ea",
+      "name": "Luna",
+      "description": "Add a {C:attention}Grey Seal{} to {C:attention}1{} selected card in your hand",
+      "imagePreview": "data:image/png;base64,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",
+      "overlayImagePreview": "",
+      "set": "Spectral",
+      "cost": 4,
+      "unlocked": true,
+      "discovered": true,
+      "hidden": false,
+      "can_repeat_soul": false,
+      "rules": [
+        {
+          "id": "53a3bb24-fccb-4ff9-83b9-9485812f4a07",
+          "trigger": "consumable_used",
+          "conditionGroups": [
+            {
+              "id": "803759f3-9dce-4868-aa24-1698762e4958",
+              "operator": "and",
+              "conditions": [
+                {
+                  "id": "d65f0ec5-3239-4526-baa2-8e181b2bbf82",
+                  "type": "cards_selected",
+                  "negate": false,
+                  "params": {
+                    "operator": "equals",
+                    "value": 1
+                  }
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "id": "b93a2229-787c-4971-b5e0-aee18687f2bc",
+              "type": "edit_cards",
+              "params": {
+                "enhancement": "none",
+                "seal": "randomss_greyseal",
+                "edition": "none",
+                "suit": "none",
+                "rank": "none"
+              }
+            }
+          ],
+          "randomGroups": [],
+          "position": {
+            "x": 727,
+            "y": 34.5
+          },
+          "loops": []
+        }
+      ],
+      "placeholderCreditIndex": 16,
+      "consumableKey": "luna",
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "b758ea23-a884-4d94-a47c-5c01642e7d36",
+      "name": "Polaris",
+      "description": "Add a {C:attention}Midnight Seal{} to {C:attention}1{} selected card in your hand",
+      "imagePreview": "data:image/png;base64,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",
+      "overlayImagePreview": "",
+      "set": "Spectral",
+      "cost": 4,
+      "unlocked": true,
+      "discovered": true,
+      "hidden": false,
+      "can_repeat_soul": false,
+      "rules": [
+        {
+          "id": "53a3bb24-fccb-4ff9-83b9-9485812f4a07",
+          "trigger": "consumable_used",
+          "conditionGroups": [
+            {
+              "id": "803759f3-9dce-4868-aa24-1698762e4958",
+              "operator": "and",
+              "conditions": [
+                {
+                  "id": "d65f0ec5-3239-4526-baa2-8e181b2bbf82",
+                  "type": "cards_selected",
+                  "negate": false,
+                  "params": {
+                    "operator": "equals",
+                    "value": 1
+                  }
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "id": "b93a2229-787c-4971-b5e0-aee18687f2bc",
+              "type": "edit_cards",
+              "params": {
+                "enhancement": "none",
+                "seal": "randomss_midnightseal",
+                "edition": "none",
+                "suit": "none",
+                "rank": "none"
+              }
+            }
+          ],
+          "randomGroups": [],
+          "position": {
+            "x": 727,
+            "y": 34.5
+          },
+          "loops": []
+        }
+      ],
+      "placeholderCreditIndex": 14,
+      "consumableKey": "polaris",
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "1aad3fe9-fa47-473e-b0c3-a709c912b847",
+      "name": "Sands",
+      "description": "Add a {C:attention}Copper Seal{} to {C:attention}1{} selected card in your hand",
+      "imagePreview": "data:image/png;base64,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",
+      "overlayImagePreview": "",
+      "set": "Spectral",
+      "cost": 4,
+      "unlocked": true,
+      "discovered": true,
+      "hidden": false,
+      "can_repeat_soul": false,
+      "rules": [
+        {
+          "id": "53a3bb24-fccb-4ff9-83b9-9485812f4a07",
+          "trigger": "consumable_used",
+          "conditionGroups": [
+            {
+              "id": "803759f3-9dce-4868-aa24-1698762e4958",
+              "operator": "and",
+              "conditions": [
+                {
+                  "id": "d65f0ec5-3239-4526-baa2-8e181b2bbf82",
+                  "type": "cards_selected",
+                  "negate": false,
+                  "params": {
+                    "operator": "equals",
+                    "value": 1
+                  }
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "id": "b93a2229-787c-4971-b5e0-aee18687f2bc",
+              "type": "edit_cards",
+              "params": {
+                "enhancement": "none",
+                "seal": "randomss_copperseal",
+                "edition": "none",
+                "suit": "none",
+                "rank": "none"
+              }
+            }
+          ],
+          "randomGroups": [],
+          "position": {
+            "x": 727,
+            "y": 34.5
+          },
+          "loops": []
+        }
+      ],
+      "placeholderCreditIndex": 13,
+      "consumableKey": "sands",
+      "hasUserUploadedImage": true
+    }
+  ],
+  "customRarities": [],
+  "consumableSets": [],
+  "boosters": [],
+  "enhancements": [
+    {
+      "id": "34d40297-cd66-48e3-8b2d-5255c5ea021d",
+      "name": "Wine",
+      "description": "A {C:blue}custom{} enhancement with {C:red}unique{} effects.",
+      "imagePreview": "data:image/png;base64,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",
+      "enhancementKey": "wine",
+      "unlocked": true,
+      "discovered": true,
+      "rules": [
+        {
+          "id": "3e7f1935-e7cc-45d5-ab23-0afe6be21a72",
+          "trigger": "card_held",
+          "blueprintCompatible": true,
+          "conditionGroups": [
+            {
+              "id": "dc0be107-1eb5-4a97-9879-f46f6a1d4ab5",
+              "operator": "and",
+              "conditions": [
+                {
+                  "id": "5b60e03e-faab-4bbb-baca-3e991e213cc3",
+                  "type": "player_money",
+                  "negate": false,
+                  "params": {
+                    "operator": "greater_than",
+                    "value": 100
+                  }
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "id": "41b552c2-7bd6-43a5-96c2-dd4f920813b5",
+              "type": "destroy_card",
+              "params": {
+                "setGlassTrigger": "false"
+              },
+              "customMessage": "SMASH!"
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 560,
+            "y": 120
+          }
+        },
+        {
+          "id": "6f31919e-4b42-4fa4-99ce-20188d7c94a6",
+          "trigger": "card_held_in_hand_end_of_round",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "225f772c-71d0-4041-9511-fe23c819b9af",
+              "type": "edit_dollars",
+              "params": {
+                "operation": "add",
+                "value": 3
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 1020,
+            "y": 180
+          }
+        }
+      ],
+      "placeholderCreditIndex": 1,
+      "weight": 5,
+      "no_collection": false,
+      "any_suit": false,
+      "replace_base_card": false,
+      "no_rank": false,
+      "no_suit": false,
+      "always_scores": false,
+      "hasUserUploadedImage": true
+    }
+  ],
+  "seals": [
+    {
+      "id": "8711a24c-0401-4735-b6cb-7a475f1090ba",
+      "name": "Copper Seal",
+      "description": "Retrigger this card for every {C:blue}Hand{} Played this Round",
+      "imagePreview": "data:image/png;base64,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",
+      "sealKey": "copperseal",
+      "badge_colour": "#5f422b",
+      "unlocked": true,
+      "discovered": true,
+      "rules": [
+        {
+          "id": "70d6d0eb-500a-4430-b63f-ef7d72739dc7",
+          "trigger": "card_scored",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "c351870b-8867-48b1-aa39-244a09c24434",
+              "type": "retrigger_card",
+              "params": {
+                "value": "GAMEVAR:hands_played_this_round|1|0"
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 864,
+            "y": 294.5
+          }
+        }
+      ],
+      "placeholderCreditIndex": 1,
+      "no_collection": false,
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "f19ae004-4ac6-4c57-88e0-4058804dc826",
+      "name": "Grey Seal",
+      "description": "when this card scores add {C:chips}1.5 XChips{}",
+      "imagePreview": "data:image/png;base64,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",
+      "sealKey": "greyseal",
+      "badge_colour": "#ababab",
+      "unlocked": true,
+      "discovered": true,
+      "rules": [
+        {
+          "id": "8fe21187-98cf-4ee9-b107-2635e863a1af",
+          "trigger": "card_scored",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "33277744-0b0a-4dbe-88b6-d226ee255deb",
+              "type": "add_x_chips",
+              "params": {
+                "value": 1.5
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 864,
+            "y": 294.5
+          }
+        }
+      ],
+      "placeholderCreditIndex": 3,
+      "no_collection": false,
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "d611f19a-227d-456b-af86-92d22eee3bb0",
+      "name": "Midnight Seal",
+      "description": "Give {C:red}Mult{} and {C:blue}Chips{} equal to combined levels of all hands",
+      "imagePreview": "data:image/png;base64,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",
+      "sealKey": "midnightseal",
+      "badge_colour": "#08112b",
+      "unlocked": true,
+      "discovered": true,
+      "rules": [
+        {
+          "id": "c3a108f1-303b-4227-9e64-dc7e7f208174",
+          "trigger": "card_scored",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "5e355544-eae4-4f70-b154-9c2ff9e57bb2",
+              "type": "add_mult",
+              "params": {
+                "value": "GAMEVAR:total_hand_levels|1|0"
+              }
+            },
+            {
+              "id": "da0f5abc-26e9-46d4-909a-6956da3f0895",
+              "type": "add_chips",
+              "params": {
+                "value": "GAMEVAR:total_hand_levels|1|0"
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 864,
+            "y": 294.5
+          }
+        }
+      ],
+      "placeholderCreditIndex": 4,
+      "no_collection": false,
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "70adbbe3-7cf2-48cb-949a-e77a5efd8868",
+      "name": "Mint Seal",
+      "description": "when this card scores add {C:money}1-20${}",
+      "imagePreview": "data:image/png;base64,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",
+      "sealKey": "mintseal",
+      "badge_colour": "#98fbd5",
+      "unlocked": true,
+      "discovered": true,
+      "rules": [
+        {
+          "id": "745ef29f-7583-4301-9c56-3b259b6c2edb",
+          "trigger": "card_scored",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "30d6b959-5e3d-4a67-b24a-af3acf901b95",
+              "type": "edit_dollars",
+              "params": {
+                "operation": "add",
+                "value": "RANGE:1|20"
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 864,
+            "y": 294.5
+          }
+        }
+      ],
+      "placeholderCreditIndex": 1,
+      "no_collection": false,
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "1e9bb723-72af-41e3-96fd-9e44491ec56e",
+      "name": "Sunset Seal",
+      "description": "when this card scores add {C:mult}1.5 XMult{}",
+      "imagePreview": "data:image/png;base64,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",
+      "sealKey": "sunsetseal",
+      "badge_colour": "#ffbf66",
+      "unlocked": true,
+      "discovered": true,
+      "rules": [
+        {
+          "id": "e0428db8-de68-48de-9967-d5219e7d1b92",
+          "trigger": "card_scored",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "b1dbe8ae-87be-471d-bc30-d0ffbfe64397",
+              "type": "add_x_mult",
+              "params": {
+                "value": 1.5
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 864,
+            "y": 294.5
+          }
+        }
+      ],
+      "placeholderCreditIndex": 4,
+      "no_collection": false,
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "67caa81e-7657-4354-becd-1d472f0bb167",
+      "name": "Wine Seal",
+      "description": "when this card scores add {C:money}2${} [s]when this card scores with over {C:money}100${} in[s] your bank destroy this card",
+      "imagePreview": "data:image/png;base64,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",
+      "sealKey": "wineseal",
+      "badge_colour": "#a30f5e",
+      "unlocked": true,
+      "discovered": true,
+      "rules": [
+        {
+          "id": "a7f09658-6b89-42c6-b00c-10cd0ecc4267",
+          "trigger": "card_scored",
+          "blueprintCompatible": true,
+          "conditionGroups": [
+            {
+              "id": "71da82d2-2f91-49a1-84b3-03dba53e115a",
+              "operator": "and",
+              "conditions": [
+                {
+                  "id": "7fd43bb5-0100-4499-9435-4e11a67211cc",
+                  "type": "player_money",
+                  "negate": false,
+                  "params": {
+                    "operator": "greater_equals",
+                    "value": 100
+                  }
+                }
+              ]
+            }
+          ],
+          "effects": [
+            {
+              "id": "ec66db63-4d96-4356-a373-c17b1e000e7e",
+              "type": "destroy_card",
+              "params": {
+                "setGlassTrigger": "false"
+              },
+              "customMessage": "POP!"
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 864,
+            "y": 294.5
+          }
+        },
+        {
+          "id": "1bf7ae22-bad5-4bf0-a8bb-43b7bd4a020d",
+          "trigger": "card_scored",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [
+            {
+              "id": "da34a5e7-287f-4bb7-8205-7d9b67c39bd2",
+              "type": "edit_dollars",
+              "params": {
+                "operation": "add",
+                "value": 2
+              }
+            }
+          ],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 451,
+            "y": 108.5
+          }
+        }
+      ],
+      "placeholderCreditIndex": 1,
+      "no_collection": false,
+      "hasUserUploadedImage": true
+    },
+    {
+      "id": "3ddcff5f-91c7-4836-98f4-3ca449b80050",
+      "name": "Yellow Seal",
+      "description": "A {C:blue}custom{} seal with {C:red}unique{} effects.",
+      "imagePreview": "data:image/png;base64,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",
+      "sealKey": "yellowseal",
+      "badge_colour": "#F0E68C",
+      "unlocked": true,
+      "discovered": true,
+      "rules": [
+        {
+          "id": "3572ed05-dcca-4b49-bb60-49edc457b0c2",
+          "trigger": "card_scored",
+          "blueprintCompatible": true,
+          "conditionGroups": [],
+          "effects": [],
+          "randomGroups": [],
+          "loops": [],
+          "position": {
+            "x": 864,
+            "y": 294.5
+          }
+        }
+      ],
+      "placeholderCreditIndex": 5,
+      "no_collection": false,
+      "hasUserUploadedImage": true
+    }
+  ],
+  "editions": [],
+  "version": "1.0.0",
+  "exportedAt": "2025-09-23T21:53:51.063Z"
+}
