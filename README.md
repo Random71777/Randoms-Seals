@@ -1,2 +1,2 @@
 # Randoms-Seals
-Adds 5 new Seals and Specrtral Cards
+now adds 5 new jokers 6 new seals and corresponding spectrals
